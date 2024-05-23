@@ -10,4 +10,5 @@ router.put("/edit-golfKart", golfKartController.editGolfKart);
 
 router.delete("/delete-golfKart", golfKartController.deleteGolfKart);
 
+router.post('/golfKart-details', golfKartController.getGolfKartDetails);
 module.exports = router;

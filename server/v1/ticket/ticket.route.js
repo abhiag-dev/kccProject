@@ -10,4 +10,6 @@ router.put("/edit-ticket", ticketsController.updateTicket);
 
 router.delete("/delete-ticket", ticketsController.deleteTicket);
 
+router.post('/get-tickets', ticketsController.getTickets);
+
 module.exports = router;

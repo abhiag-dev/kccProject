@@ -11,4 +11,6 @@ router.put("/edit-pos", posController.editPOS);
 
 router.put("/change-status", posController.changePOSStatus);
 
+router.post('/get-pos', posController.getpos);
+
 module.exports = router;
